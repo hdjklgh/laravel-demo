@@ -1,0 +1,1 @@
+<a href="{{url('site/t2')}}">go to t2</a>

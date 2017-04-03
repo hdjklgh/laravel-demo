@@ -1,0 +1,180 @@
+.site-set-itmes{
+	width:100%;
+}
+.site-items{
+	width:30%;
+	height:auto;
+	/*background: #ccc;*/
+	border-radius: 5px;
+	border:1px #c2c2c2 solid;
+	margin-right:1%;
+	overflow: hidden;
+}
+.site-set-itmes .set-head{
+	height:60px;
+	background-color:#f9f9f9;
+	padding:0 15px;
+	line-height: 60px;
+}
+.site-set-itmes .set-head h3{
+	font-size: 18px;
+	font-weight: bold;
+	color:#000;
+}
+.set-con ul{
+	overflow: hidden;
+	padding:15px;
+	font-size: 12px;
+	width: 100%;
+}
+.set-con li{
+	margin-bottom:23px;
+}
+.set-con .add-upload{
+	width:87px;
+	height:87px;
+	text-align: center;
+	line-height: 87px;
+	border:1px #c2c2c2 solid;
+}
+.set-con .add-upload .layui-icon{
+	font-size: 28px;
+	color:#6e6e70;
+	font-weight: 800;
+}
+.set-con .upload_pic{
+	width:87px;
+	height:87px;
+	overflow: hidden;
+	margin-right: 2%;
+	position: relative;
+	cursor: pointer;
+}
+.set-con .upload_pic input[type='file']{
+	position: absolute;
+	top:0;
+	right:0;
+	width:87px;
+	height:87px;
+	opacity: 0;
+}
+.set-con .upload-file{
+	position: relative;
+	height:87px;
+	width:54%;
+	overflow: hidden;
+}
+.set-con .exchange{
+	color:#00a0e9;
+	cursor: pointer;
+	width:50%;
+	
+}
+.set-con .upload input[type='file']{
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+}
+.set-con .location{
+	position: absolute;
+	bottom:0;
+}
+.set-con .upload{
+	position: relative;
+	overflow: hidden;
+}
+.set-con .location input[type='text']{
+	width:100%;
+	border:1px #c2c2c2 solid;
+	height:24px;
+	background: #fff;
+}
+.set-con .removelist{
+	position: relative;
+	width:14%;
+	height:87px;
+}
+.set-con .remove{
+	position: absolute;
+	bottom:0;
+	left:0;
+	text-align: left;
+	cursor: pointer;
+}
+.set-con .remove .groupbtn{
+	color:#c2c2c2;
+	font-size: 26px;
+}
+.set-con .groupbtn span{
+	margin-right:3px;
+}
+.set-footer{
+	padding:15px;
+	border-top:1px #c2c2c2 solid;
+	text-align: right;
+}
+.set-footer button{
+	letter-spacing: 1px;
+}
+.site-items-title{
+	color:#333333;
+	height:60px;
+	line-height: 60px;
+	font-weight: 800;
+	font-size: 18px;
+}
+@media (min-width:1261px) and (max-width: 1413px) {
+	.set-con .upload-file{
+		width:50%;
+	}
+}
+@media (min-width:1193px) and (max-width: 1260px) {
+	.set-con .upload-file{
+		width:40%;
+	}
+	.site-set-itmes .set-head h3{
+		font-size: 16px;
+	}
+}
+@media (min-width: 1026px) and (max-width: 1192px) {
+	.set-con .upload-file{
+		width:40%;
+	}
+	.site-set-itmes .set-head h3{
+		font-size: 14px;
+	}
+}
+@media (min-width: 320px) and (max-width: 1025px) {
+	.set-con .upload-file{
+		width:70%;
+		height:60px;
+	}
+	.set-con .upload_pic{
+		margin:0 auto;
+		width:100%;
+	}
+	.set-con .removelist{
+		width:20%;
+	}
+	.set-con .remove{
+		text-align: right;
+		width:100%;
+	}
+	.set-footer button{
+		display: block;
+		width:100%;
+		padding:0;
+		margin:5px 0;
+	}
+	.set-footer .layui-btn+.layui-btn{
+		margin-left:0;
+	}
+	
+	.site-set-itmes .set-head h3{
+		font-size: 14px;
+	}
+	.site-set-itmes .set-head span{
+		font-size: 12px;
+	}
+}

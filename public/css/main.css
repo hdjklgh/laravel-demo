@@ -1,0 +1,66 @@
+.admin-main{
+	margin: 15px;
+}
+.admin-main-header{
+	font-size: 24px;
+	color:#333;
+	margin-left:20px;
+}
+.main-view-list li{
+	/*height:108px;*/
+	padding:20px 30px;
+	font-size: 16px;
+	margin:20px;
+	width:10%;
+	border-radius: 4px;
+	font-size:20px;
+	color:#fff;
+}
+.main-view-list li:last-of-type{margin-right: 0;}
+.main-view-list{
+	font-size: 28px;
+	font-family: "微软雅黑";
+}
+.main-view-company{background-color:#70c1b3;border:1px #5eab9e solid;color:#baeae2;}
+.main-view-work{background-color:#247ba0;border:1px #00567a solid;}
+.main-view-fault{background-color:#eb547c;border:1px #deeaa8 solid;}
+.main-view-per{background-color:#7ecef4;border:1px #2ba3dc solid;}
+.main-view-deadline{background-color:#b2dbbf;border:1px #9bc4a8 solid;}
+.main-view-addcompany{background-color:#f3ffbd;border:1px #deeaa8 solid;}
+.main-view-name{font-size: 20px;}
+.card_items{
+	padding:5px 15px;
+}
+.card_items .card_href{
+	padding:10px 20px;
+}
+.card_items .card_href span{color:#fff;}
+.card_items .card_href h3{margin:0;font-size: 18px;padding-bottom: 10px;color:#e6f5eb;}
+.card_items .main-view-addcompany h3{color:#899455;}
+.card_items .main-view-addcompany span{color:#555c35;}
+.list_items{padding:10px 15px;}
+.list-items-con{border:1px #c2c2c2 solid;border-radius: 5px;}
+.list-items-con .title{background: #f9f9f9;height:45px;line-height: 45px;}
+.list-items-con .con .info{padding:10px 40px;}
+.list-items-con .title-inner{padding:0 20px;font-size: 16px;font-weight: bold;}
+.list-items-con .title-inner .r_info{color:#c2c2c2;cursor: pointer;font-size: 18px;}
+.select-year-box select{color:#303030;font-size: 14px;font-weight: normal;background: #fff;width:100px;height:30px;}
+.date_view_list2 .arrow{width:12px;height:12px;display: inline-block;border-radius: 50%;background: #ff7473;margin-right:10px;}
+.date_view_list2 .arr_blue{background: #47b8e0;}
+.date_view_list2 .arr_y{background: #ffc952;}
+.date_view_list2 .arr_b{background: #34314c;}
+.date_view_list2 .arr_db{background: #247ba0;}
+.date_view_list2 .arr_qb{background: #70c1b3;}
+.date_view_list2 .arr_z{background: #ae5da1;}
+.date_view_list2 .arr_g{background: #80c269;}
+.date_view_list2 .arr_gray{background: #898989;}
+.date_view_list2 .isDay{line-height: 30px;font-size: 14px;}
+.date_view_list2 .flag_data .isDay{height:30px;}
+.date_view_list2 .flag_data .isDay .arrow{margin-right:5px;}
+.date_view_list2 .flag_r_data{padding-top:60px;}
+.date_view_list2 .flag_data .isDay .arrow{margin-right:5px;}
+.flag_r_data .row{margin-right:10px;padding-left:20px;}
+@media (min-width: 1200px) and (max-width: 1270px) {.flag_r_data .row{padding-left:0;}}
+@media (max-width: 1200px) {
+	.date_view_list2 .flag_r_data{padding-top:0px;}
+}

@@ -1,0 +1,34 @@
+.page{margin:30px;}
+.disabled-input{border:none;}
+body{font-size: 14px;color:#333;}
+.fl { float:left; display: inline; }
+.fr { float:right; display: inline; }
+.clear { clear:both; }
+.clfix{clear:left;}
+.crfix{clear:right;}
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; font-size:0; line-height:0; height:0;}
+.clearfix { *zoom:1; /* for IE6 7 */ }
+.bbottom{border-bottom: 1px #ccc solid;}
+.mt40{margin-top:40px;}
+/*按钮*/
+.btn-pamriy{background: #247ba0;color:#fff;}
+.btn-active{background:#eb547c;color:#fff;}
+.btn-common{background: #fff;color:#333;}
+.btn{border:1px #d1d1d1 solid;border-radius: 4px;}
+.ico{color:#d2d2d2;}
+.col-pramiry{color:#00a0e9;}
+.col-reduce{color:#636363;}
+*{box-sizing: border-box;}
+/*text*/
+.strong{font-weight: bold;color:#000;}
+.textleft{text-align: left;}
+iframe{width:100%;min-height: 100%;}
+@font-face {
+  font-family: 'layui-icon';  /* project id 216467 */
+  src: url('//at.alicdn.com/t/font_wfttvou0l7j02j4i.eot');
+  src: url('//at.alicdn.com/t/font_wfttvou0l7j02j4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_wfttvou0l7j02j4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_wfttvou0l7j02j4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_wfttvou0l7j02j4i.svg#iconfont') format('svg');
+}
+
